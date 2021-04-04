@@ -39,6 +39,8 @@ copy.addEventListener('click', () => {
     const textarea = document.createElement('textarea');
     const copyPassword = newPassword.innerText;
 
+    if (!copyPassword) { return }
+
     textarea.value = copyPassword;
     document.body.appendChild(textarea);
     textarea.select();
