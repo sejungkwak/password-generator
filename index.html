@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link rel="stylesheet" href="style.css">
+        <title>50 Projects Day 31 - Password Generator</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Password Generator</h1>
+            <div class="display">
+                <div class="password" id="newPassword"></div>
+                <i id="copy" class="far fa-copy"></i>
+            </div>
+            <div class="choice">
+                <label for="length">Password Length</label>
+                <input type="number" id="length" value="5" min="5" max="30">
+            </div>
+            <div class="choice">
+                <label for="uppercase">Include uppercase letters</label>
+                <input type="checkbox" id="uppercase" checked>
+            </div>
+            <div class="choice">
+                <label for="lowercase">Include lowercase letters</label>
+                <input type="checkbox" id="lowercase" checked>
+            </div>
+            <div class="choice">
+                <label for="numbers">Include numbers</label>
+                <input type="checkbox" id="numbers" checked>
+            </div>
+            <div class="choice">
+                <label for="symbols">Include symbols</label>
+                <input type="checkbox" id="symbols" checked>
+            </div>
+            <button class="btn">Generate Password</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #3f72af;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+    background-color: #112d4e;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 20px 20px;
+}
+
+.choice {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    margin: 7px 0;
+}
+
+.display {
+    position: relative;
+    margin: 10px 0;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: #3f72af;
+    border-radius: 5px;
+}
+
+.far {
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #112d4e;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.far:hover {
+    background-color: #af3f72;
+}
+
+#length {
+    width: 35px;
+    border-radius: 3px;
+    border: none;
+    text-align: center;
+}
+
+
+.btn {
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3f72af;
+    color: #fff;
+    font-size: 16px;
+    margin: 10px 0 0;
+}
+
+.btn:hover {
+    background-color: #af3f72;
+}
